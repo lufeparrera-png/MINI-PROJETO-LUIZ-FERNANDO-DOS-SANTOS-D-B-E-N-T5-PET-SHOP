@@ -39,7 +39,7 @@ O foco do projeto é demonstrar a organização do código em módulos, o uso de
 ## 4. Estrutura dos arquivos
 
 ```
-Miniprojeto_Ecommerce_NomeAluno_Turma/
+Miniprojeto_Ecommerce_LUIZ_FERNANDO_DOS_SANTOS-D-B-E-N-T5/
 ├── src/
 │   ├── tipos.ts       # Interfaces e tipos (Produto, Cliente, Carrinho, Pedido, Resultado)
 │   ├── utils.ts       # Funções auxiliares (arredondar, formatar moeda, normalizar texto)
@@ -135,3 +135,14 @@ Todas as operações retornam um `Resultado`: `{ ok: true, valor }` em caso de s
 
 ## 9. Autor
 [LUIZ FERNANDO DOS SANTOS] — Turma [D B E N T5]
+// FIX 
+{
+  "name": "miniprojeto-ecommerce-petshop",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js"
+  }
+}
